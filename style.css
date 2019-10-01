@@ -1,0 +1,191 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+body {
+    background-color: #535c68;
+}
+.global-container{
+    margin: 20px;
+}
+p, h2, label {
+    color: white;
+}
+h2 {
+    font-family: 'Indie Flower', cursive;
+}
+
+/* CONTACT PAGE */
+.container-form {
+    display: flex;
+}
+.form-row{
+    justify-content: space-evenly;
+}
+
+
+/* LANDING PAGE */
+.bg {
+    background-image: url("climat-tempete-tornade-1560x1041.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+}
+#home {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 55px;
+    color: #fff;
+    width: 100%
+}
+#home h1, h3 {
+    color: #fff;
+}
+#home h1 {
+    font-family: 'Lobster', cursive, arial, sans-serif;
+    font-size: 80px;
+}
+#home h3 {
+    font-size: 40px;
+    font-weight: 100;
+}
+.title-container {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title-container .fa-leaf {
+    font-size: 55px;
+    color: #fff;
+}
+.btn-header{
+    margin-top: 20px;
+    padding: 10px 20px 15px 20px;
+    font-size: 25px;
+    font-weight: 600;
+    background-color: #9fe419;
+    border: 1px solid #73a80d;
+    color: #fff;
+}
+.btn-header:hover{
+    background-color: rgba(255, 255, 255, 0);
+    color: #fff;
+    border: 1px solid #fff;
+}
+.caption {
+    color: #9fe419;
+}
+
+
+
+/* NAV */
+a.nav-link, nav button, footer {
+    font-family: 'Inconsolata', monospace;
+}
+.nav-container{
+    width: 100%;
+}
+header .bg-dark {
+    background-color: #343a40;
+}
+a.nav-link{
+    margin: 0 10px;
+    padding: 10px 20px;
+    color: #9fe419!important;
+}
+a.nav-link:hover{
+    margin: 0 10px;
+    padding: 10px 20px;
+    color: #fff!important;
+}
+.navbar-brand{
+    font-size: 25px;
+    font-family: 'Lobster', cursive, arial, sans-serif;
+}
+.btn-contact-us{
+    margin: 0 10px;
+    color: #fff!important;
+    border: 1px solid #fff;
+}
+.nav-container .fa-leaf{
+    font-size: 20px;
+    color: #fff;
+}
+.btn-contact-us:hover{
+    margin: 0 10px;
+    color: #fff!important;
+    border: 1px solid #9fe419;
+    background-color: #9fe419!important;
+}
+.caption {
+    color: #9fe419;
+}
+
+
+/* FOOTER */
+footer h3{
+    font-family: 'Lobster', cursive, arial, sans-serif;
+}
+.footer-middle-div{
+    display:flex;
+    align-items: baseline;
+}
+.footer-right i {
+    padding: 5px;
+    color: #9fe419;
+}
+.footer-middle i {
+    padding: 5px;
+}
+.footer-left a, .footer-middle a {
+    color: #9fe419;
+    text-decoration: none;
+}
+.footer-left a:hover, .footer-middle a:hover, .footer-right a i:hover {
+    color: white;
+}
+.footer-right p {
+    text-align: center;
+}
+.footer-left, .footer-right, .footer-middle {
+    width: 100%;
+}
+p.footer-links {
+    text-align: center;
+}
+.footer-left, .footer-middle, .footer-right{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+}
+footer{
+    align-items: center;
+    background-color: #343a40;
+    color: white;
+}
+@media screen and (min-width: 768px) {
+
+    .footer-left, .footer-middle, .footer-right{
+        display: flex;
+        flex-direction: column;
+        width: 33%;
+        padding: 20px;
+        justify-content: center;
+        align-items: center;
+    }
+    footer{
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+        background: #343a40;
+        color: white;
+    }
+
+}
